@@ -1,0 +1,28 @@
+#navbar {
+    background-color: white;
+}
+
+#tof {
+    margin-right: 40px;
+    margin-left: 100px;
+    font-size: 28 px;
+}
+
+#an {
+    margin-right: 30px;
+    font-size: 1.3rem;
+}
+
+#flex {
+    width: 50%;
+    margin: 0.5px;
+}
+
+#con {
+    font-size: 1.3rem;
+    color: black;
+}
+
+#imge {
+    margin-left: 60px;
+}
