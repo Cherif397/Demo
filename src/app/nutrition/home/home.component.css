@@ -1,0 +1,190 @@
+.img-wrapper {
+    position: relative;
+
+}
+
+.img-responsive {
+    width: 110%;
+    height:40rem;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.btnh3{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+#lo{
+    font-size: 20px;
+
+}
+.pp{
+    text-align: center;
+    margin-left: 600px;
+    width: 40%;
+    font-size: 16px;
+}
+#ros {
+    align-content: center;
+    margin-left: 150px;
+    margin-top: 2%;
+    margin-right: 200px;
+    margin-bottom: 0%;
+    text-align: center;
+    
+}
+#asp {
+margin-left: 250px;
+    width: 50%;
+}
+#asp1 {
+    margin-left: 500px;
+    width: 50%;
+}
+#asp2 {
+    margin-left: 350px;
+    width: 50%;
+}#asp3{
+    margin-left: 200px;
+    width: 50%;
+}#asp4 {
+    margin-right: 200px;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 350px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card-image {
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car-l {
+    background-image: url("/assets/ccc.jpg");
+    margin-top:40px;
+    margin-left:85px;
+    width: 160px;
+    height: 15vh;
+}
+
+.car-2 {
+    background-image: url("/assets/verte.jpg");
+}
+
+.car-3 {
+    background-image: url("/assets/verte.jpg");
+}
+
+.car-4 {
+    background-image: url("/assets/med1.jpg");
+}
+
+.car-5 {
+    background-image: url("/assets/med2.jpg");
+}
+
+.car-6 {
+    background-image: url("/assets/med3.jpg");
+}
+.car-7 {
+    background-image: url("/assets/med4.jpg");
+}
+.car-8 {
+    background-image: url("/assets/prepare.jpg");
+    margin-top:20px;
+    margin-left:85px;
+    width: 160px;
+    height: 17vh;
+}
+.cls{
+    margin-left:500px;
+}
+.car-9 {
+    background-image: url("/assets/pomme1.jpg");
+    margin-top:20px;
+    margin-left:85px;
+    width: 160px;
+    height: 15vh;
+}
+.besoin{
+
+  background-color: #f2f3f5;
+  height: 100%;
+  width: 95%;
+  height:45rem;
+  margin-left:50px ;
+  
+}
+.besoins{
+    background-color:#f0fffb;
+    height: 100%;
+    width: 95%;
+    height:50rem;
+    margin-left:50px ;
+    
+  }
+.btnh33{
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+#ap{height: 0.5px;}
+.sdf{
+    margin-left: 190px;
+}
+.imgs{
+    /* margin-left: 10px; */
+    width: 18%;
+}
+.imgss{
+    margin-left: 25px;
+}
+/* #homes{
+    width: 100%;
+} */
+.voir{
+    margin-top: 10px;
+    margin-left: 800px;
+    background-color: #ea7758;
+    color:white;
+    width: 15%;
+    font-size: 20px;
+}
+.trouver{
+    margin-left: 70px;
+    width: 60%;
+    background-color: rgb(55, 211, 159);
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.cons{
+    font-size: 2.5vh;
+    margin-left: 20px;
+    text-align: center;
+}
+.mop{
+    font-size: 1.7vh;
+    margin-left: 95px;
+}

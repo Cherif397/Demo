@@ -1,0 +1,191 @@
+.point1{
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 35vh;
+}
+.point2{margin-left: 250px;
+    margin-right: 250px;
+    height: 150vh;
+}
+.bg{
+    background-color: rgb(238, 238, 238);
+}
+.pp{
+    width: 15rem;
+}
+
+ .bb{
+    margin-right: 1200px;
+    font-size: 1rem;
+} 
+/* .imgs{
+    width: 10%;
+} */
+.imgss{
+    width: 20%;
+}
+.pop{
+    width: 2%;
+}
+.popp{
+    width: 2%;
+    margin-left: 900px;
+    
+}
+.all{
+    margin-left: 970px;
+    margin-top: 30px;
+}
+.dente{
+    width:5%;
+    height:3vh;
+}
+.dents{
+    margin-left: 250px;
+}
+.imgsss{
+    width: 5%;
+}
+.point3{
+    border-color: black;
+    width: 9%;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+.point4{
+    border-color: black;
+    width: 10%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.point5{
+    margin-left: 700px;
+    /* margin-bottom: 50000%; */
+    color: white;
+    background-color:tomato;
+}
+.alig{
+float: left;
+}
+.align{
+float: right;
+}
+.bbb{
+    margin-right: 1310px;
+}
+.srcc{
+    height: 17vh;
+}
+.msd{
+    height: 21vh;
+}
+#flex{
+    margin-left: 250px;
+}
+#flexe{
+    margin-left: 210px;
+}
+#flexee{
+    margin-left: 275px;
+}
+#flexs{
+    margin-left: 260px;
+}
+#flexss{
+    margin-left: 270px;
+}
+#flexsss{
+    margin-left: 320px;
+}
+#flexssss{
+    margin-left: 310px;
+}
+p{
+    font-size: 1rem;
+}
+.nk{
+    font-size: 1.2rem;   
+}
+.bbb p{
+    font-size: 1rem;
+}
+.next{
+    margin-left: 700px;
+}
+.df{
+    border-color: rgb(32, 32, 32);
+    /* width: 6%;  */
+    /* margin-left: 700px; */
+}
+.dff{
+    border-color: rgb(32, 32, 32);
+    /* width: 10%; */
+    margin-left: 10px;  
+}
+#xml{
+    margin-left: 885px;
+}
+#main{
+    margin-left: 395px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#allt{
+    width: 6%;
+}
+.topp{
+    margin-left: 60px;
+    width: 55%;
+    height: 7vh;
+    /* width: 60%; */
+}
+#riche{
+    margin-right: 200px;
+}
+.tt{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: rgb(32, 179, 127);
+}
+.cols{
+    margin-left: 1100px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+p{
+    font-size: 1.2rem;
+}
+.dent{
+    width: 35px;
+}
+.sp{
+    color: orange;
+    font-size: 1.3rem;
+}
+.recommand{
+    margin-left: 600px;
+}
+.altr{
+    margin-left: 20px;
+}
+b{
+    font-size: 1.4rem;
+}
+.voir{
+    color: white;
+    background-color: turquoise;
+    margin-left: 600px;
+}
+.colss{
+    /* margin-left: 1100px; */
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.imgsse{
+    width: 30px;
+}
+#pre{
+    width: 50%;
+}
