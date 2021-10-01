@@ -1,20 +1,36 @@
-<nav class="navbar navbar-expand-lg navbar-light ">
-    <div class="container-fluid" id="navbar">
-        <a class="navbar-brand" id='imge' href="#"><img src="assets/VERT_FONCE.jpg" alt='photo' width="200"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
-            aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor03">
-            <ul class="navbar-nav me-auto">
-            </ul>
-            <form class="d-flex" id="flex">
-                <button type="button" class="btn btn-outline-warning" id='tof'>Vous êtes un professionnel de
-                    santé?</button>
-                <p id="an">Annuaire des médecins </p>
-                <a routerLink="/connexion" type="submit" dropdown-item id="con">Connexion</a>
-            </form>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/VERT_FONCE.jpg" alt='photo' width="200"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarColor03">
+        <ul class="navbar-nav me-auto">
+        </ul>
+        <form class="d-flex">
+          <div class="row">
+            <button class="btn btn-outline-warning" type="text" placeholder="Search">Vous êtes un professionnel de
+            santé?</button>
+          </div>
+          </form>
+          <div class="d-flex">
+            <h2 id="annuaire">Annuaire des médecins</h2> 
+            <!-- <a routerLink="/connexion">Connexion</a> -->
+
+          <ul class="navbar-nav me-auto" >
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="assets/CARDIOLOGUE.png" alt="avatar"></a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li> 
+          </ul>
         </div>
+      </div>
     </div>
-</nav>
-<hr>
+  </nav>

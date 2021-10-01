@@ -20,7 +20,9 @@ import { ChatsComponent } from './nutrition/chats/chats.component';
 import { BlogComponent } from './nutrition/blog/blog.component';
 import { MonProfilPraticienComponent } from './nutrition/mon-profil-praticien/mon-profil-praticien.component';
 import { HoraireComponent } from './nutrition/horaire/horaire.component';
-
+import { RecommendationsComponent } from './nutrition/dashboard/recommendations/recommendations.component';
+import { ChangerMotDePasseComponent } from './nutrition/dashboard/changer-mot-de-passe/changer-mot-de-passe.component';
+import { FactureComponent } from './nutrition/dashboard/facture/facture.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +41,10 @@ import { HoraireComponent } from './nutrition/horaire/horaire.component';
     ChatsComponent,
     BlogComponent,
     MonProfilPraticienComponent,
-    HoraireComponent
+    HoraireComponent,
+    RecommendationsComponent,
+    ChangerMotDePasseComponent,
+    FactureComponent
   ],
   imports:[
     BrowserAnimationsModule,

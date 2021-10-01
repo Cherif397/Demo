@@ -14,6 +14,11 @@ import { PresentationComponent } from './nutrition/presentation/presentation.com
 import { RecommandationComponent } from './nutrition/recommandation/recommandation.component';
 import { ChatsComponent } from './nutrition/chats/chats.component';
 import { BlogComponent } from './nutrition/blog/blog.component';
+import { RecommendationsComponent } from './nutrition/dashboard/recommendations/recommendations.component';
+import { ChangerMotDePasseComponent } from './nutrition/dashboard/changer-mot-de-passe/changer-mot-de-passe.component';
+
+import { FactureComponent } from './nutrition/dashboard/facture/facture.component';
+
 
 
 
@@ -22,22 +27,25 @@ const routes: Routes = [
   {path: 'inscription', component: InscriptionComponent },
   {path: 'connexion', component: ConnexionComponent },
   {path: 'motDePasseOublie', component: MdpOublieComponent },
-  {path: 'deshboard', component: DashboardComponent },
+  {path: 'sidebar', component: DashboardComponent, children:[
+    {path:'recommendations',component:RecommendationsComponent},
+    {path:'changerMotDePasse',component:ChangerMotDePasseComponent},
+    {path:'facture',component:FactureComponent},
+
+  ] },
   {path:'monProfilPraticien',component:MonProfilPraticienComponent},
-  {path:'nav-gauche',component:NavGuaucheComponent},
   {path:'presentation',component:PresentationComponent},
   {path:'lieu',component:LieuComponent},
   {path:'Recommandation',component:RecommandationComponent},
-
   {path:'horaire',component:HoraireComponent},
   {path:'bar',component:BarComponent},
   {path:'chats',component:ChatsComponent},
   {path:'blog',component:BlogComponent},
-
-
-
   {path:'bar',component:BarComponent},
-  {path:'horaire',component:HoraireComponent}
+  {path:'horaire',component:HoraireComponent},
+  {path:'recommendation',component:RecommandationComponent},
+
+  
 ];
 
 @NgModule({

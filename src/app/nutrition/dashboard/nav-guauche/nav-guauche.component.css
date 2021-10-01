@@ -7,3 +7,15 @@
     -moz-box-shadow: 12px 12px 12px rgb(231, 227, 227); 
   -webkit-box-shadow: 12px 12px 12px rgb(231, 227, 227); 
 }
+.espase{
+  border-bottom: 3px;
+}
+.side1{
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-right: 35px;
+}
+#oui{
+  background-color: blueviolet;
+  border-radius: 175%;
+}
